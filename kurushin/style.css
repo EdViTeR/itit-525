@@ -1,1 +1,132 @@
-/* Здесь будут стили */
+/* Общие настройки стиля */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f5f7;
+    color: #2c3e50;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Шапка сайта в морском стиле */
+.site-header {
+    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    color: #e0f7fa;
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.site-header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    opacity: 0.85;
+    font-weight: 300;
+}
+
+/* Основной контейнер */
+.container {
+    flex: 1;
+    max-width: 900px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Карточка персонажа */
+.profile-card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(15, 32, 39, 0.1);
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    padding: 35px;
+    gap: 35px;
+    border-left: 6px solid #0083b0;
+}
+
+/* Стили для фото */
+.image-container {
+    flex-shrink: 0;
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #e0f2f1;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    display: block;
+}
+
+/* Описание способностей и лора */
+.profile-info h2 {
+    color: #0f2027;
+    margin-bottom: 12px;
+    font-size: 1.8rem;
+}
+
+.profile-info h3 {
+    color: #203a43;
+    margin: 20px 0 10px 0;
+    font-size: 1.2rem;
+}
+
+.profile-info p {
+    color: #546e7a;
+    font-size: 1.05rem;
+}
+
+/* Теги способностей */
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag {
+    background-color: #e0f2f1;
+    color: #00695c;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 1px solid #b2dfdb;
+}
+
+/* Подвал */
+.site-footer {
+    background-color: #0f2027;
+    color: #809399;
+    text-align: center;
+    padding: 25px;
+    font-size: 0.9rem;
+    margin-top: auto;
+}
+
+/* Адаптивность */
+@media (max-width: 700px) {
+    .profile-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .tech-stack {
+        justify-content: center;
+    }
+}/* Здесь будут стили */
