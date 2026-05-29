@@ -1,0 +1,36 @@
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Страница о человеке</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <a href="#">Хисматулина Ксения</a>
+  <a href="../index.html">Назад</a>
+</header>
+
+<section class="profile">
+  <img src="photo/pivn.jfif" alt="Фото человека">
+  <h1>Пивненко Максим</h1>
+  <p><strong>О себе:</strong> Привет! Меня зовут Ксюша. Я люблю рисование, путешествия и активный отдых)). В свободное время слушаю лекции на разные темы.</p>
+  <p><em>" Если нет ветра, беритесь за весла."</em></p>
+
+  <div class="hobbies">
+    <h2>Мои увлечения</h2>
+    <ul>
+      <li>Рисование</li>
+      <li>Путешествия</li>
+      <li>Теннис</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  Сделано с душой ❤️ | 2026
+</footer>
+
+</body>
+</html>
