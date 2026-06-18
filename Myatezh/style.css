@@ -1,85 +1,82 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Life Ordinary</title>
 
-header {
-  background-color: #333;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
 
-header a {
-  color: white;
-  text-decoration: none;
-  margin: 5px 10px;
-  padding: 8px 12px;
-  background-color: #555;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
+        body{
+            font-family: Arial, sans-serif;
+            background:#f5f5f5;
+            height:100vh;
+        }
 
-header a:hover {
-  background-color: #777;
-}
+        .container{
+            display:flex;
+            height:100vh;
+        }
 
-.profile {
-  max-width: 800px;
-  margin: 40px auto;
-  background: white;
-  padding: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  border-radius: 10px;
-  text-align: center;
-}
+        .text{
+            width:50%;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            padding:80px;
+        }
 
-.profile img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 20px;
-}
+        .text h1{
+            font-size:80px;
+            line-height:0.95;
+            margin-bottom:40px;
+        }
 
-.profile h1 {
-  margin: 10px 0;
-  font-size: 28px;
-}
+        .text p{
+            font-size:24px;
+            line-height:1.7;
+            color:#555;
+        }
 
-.profile p {
-  color: #777;
-  line-height: 1.6;
-}
+        .photo{
+            width:50%;
+            overflow:hidden;
+        }
 
-.hobbies {
-  margin-top: 30px;
-}
+        .photo img{
+            width:100%;
+            height:100%;
+            object-fit:cover;
+        }
+    </style>
+</head>
+<body>
 
-.hobbies h2 {
-  font-size: 24px;
-  margin-bottom: 15px;
-}
+<div class="container">
 
-.hobbies ul {
-  list-style: none;
-  padding: 0;
-}
+    <div class="text">
+        <h1>My Life<br>ordinary</h1>
 
-.hobbies ul li {
-  background-color: #f0f0f0;
-  margin: 5px auto;
-  padding: 10px;
-  max-width: 400px;
-  border-radius: 5px;
-}
+        <p>
+            This is my life.<br>
+            It's not perfect,<br>
+            but it's real.<br>
+            I enjoy the simple things,<br>
+            the little moments,<br>
+            and the beautiful ordinary days.
+        </p>
+    </div>
 
-footer {
-  text-align: center;
-  margin: 40px 0;
-  color: #aaa;
-  font-size: 14px;
-}
+    <div class="photo">
+        <img src="photo2/me.jpg" alt="">
+    </div>
+
+</div>
+
+</body>
+</html>
