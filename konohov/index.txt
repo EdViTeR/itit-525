@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Страница о человеке</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <a href="#">Конохов Никита</a>
+  <a href="../index.html">Назад</a>
+</header>
+
+<section class="profile">
+  <!-- В атрибут src нужно будет вписать точное название вашего фото -->
+  <img src="photo/my_photo.jpg" alt="Фото Никиты">
+  <h1>Конохов Никита</h1>
+  <p><strong>О себе:</strong> Здравствуй! Меня зовут Никита. В свободное время я люблю смотреть фильмы и сериалы, слушать музыку и играть в комп.</p>
+  <p><em>"Методом проб и ошибок - я пробовал и ошибался."</em></p>
+
+  <div class="hobbies">
+    <h2>Мои увлечения</h2>
+    <ul>
+      <li>компьютерные игры</li>
+      <li>игра на гитаре</li>
+      <li>автомобили</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  Сделано с душой ❤️ | 2026
+</footer>
+
+</body>
+</html>
